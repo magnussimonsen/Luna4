@@ -20,3 +20,20 @@ Luna4 is an educational multi-tool application designed to support and streamlin
 🎲 A probability calculator
 
 Luna4 was built with a focus on flexibility and cross-discipline utility, making it suitable for science, math, and general education.
+
+## Screenshots
+
+### Notebook Editor
+![Notebook Editor](images/screenshots/Luna4-UI-overview.png)
+
+### Notebook Editor side panel
+![Notebook Editor](images/screenshots/Luna4-UI-overview-1.png)
+
+## Python editor
+![Python Editor](images/screenshots/Luna4-python.png)
+
+## Python editor
+![Python Editor](images/screenshots/Luna4-python-dark-mode.png)
+
+### CAS Integration
+![CAS](images/screenshot2.png)
