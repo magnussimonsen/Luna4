@@ -46,9 +46,6 @@ This project is licensed under the [MIT License](LICENSE).
 ### Notebook Markdown Editor
 <img src="images/screenshots/Luna4-UI-overview.png" width="500" />
 
-### Notebook Markdown Editor
-<img src="images/screenshots/Luna4-UI-overview.png" width="500" />
-
 ### Notebook Editor side panel
 <img src="images/screenshots/Luna4-UI-overview-1.png" width="500" />
 
