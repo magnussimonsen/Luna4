@@ -1,4 +1,5 @@
 # Luna4
+Built using Electron, Vite and VueJS
 
 ## ⚠️ Important
 Luna4 is deprecated, but still functional. It works as a notebook-style Python editor with Markdown support and some Computer Algebra System (CAS) capabilities. Development is continuing in Luna5, which is being rewritten in TypeScript for improved performance and maintainability.
