@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- \Luna4\src\renderer\index.html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna4</title>
+    
+    <!-- Import global styles -->
+    <link rel="stylesheet" href="./src/assets/styles/fonts.css" /> 
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Vite will inject the Vue app here -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
+
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  font-family: var(--font-family-default);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+</style>
