@@ -1,0 +1,103 @@
+/* \renderer\src\assets\themes\markdown-right-aligned.css */
+/* Euler math toolbox inspired theme*/
+
+
+
+.markdown-rendered {
+  line-height: 1.45;
+  word-break: keep-all;
+  padding: 0em; 
+  margin: 0em;
+  background-color: var(--markdown-bg-color);
+  color: var(--markdown-text-color);
+  line-height: 1.45;   
+
+}
+
+.markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3, .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6 {
+  margin-top: 0em;      /* Remove top margin */
+  margin-bottom: 0.1em; /* Reduced space after headings */
+  padding-top: 0em;  /* Reduced padding */
+  padding-bottom: 0em; /* Reduced padding */
+  padding-left: 0em;
+  line-height: 1.45;    /* Tighter line height within heading */
+  font-weight: bold;   /* Ensure headings stand out */
+    text-align: right;
+}
+
+.markdown-rendered h1 {
+  font-size: 1.8em;
+  border-bottom: orange 0.05em solid;
+  background-color: var(--markdown-h1-bg-color);
+}
+
+.markdown-rendered h2 {
+  font-size: 1.5em;
+}
+
+.markdown-rendered h3 {
+  font-size: 1.2em;
+}
+
+.markdown-rendered h4 {
+  font-size: 1em;
+}
+
+.markdown-rendered h5 {
+  font-size: 1em; 
+  font-style: italic;
+
+}
+
+.markdown-rendered h6 {
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+.markdown-rendered p{
+  font-size: 1em;
+  margin: 0em;
+  padding: 0.5em 0em 0.5em 0em;
+  color: green;
+}
+
+/* Style the table */
+.markdown-rendered table {
+  width: auto;
+  border-collapse: collapse; /* Ensures borders don't have space between them */
+  margin: 1em 0; /* Optional: Adds margin around the table */
+}
+
+/* Style table cells */
+.markdown-rendered th,
+.markdown-rendered td {
+  border: 1px solid #ddd; /* Adds a light border color */
+  padding: 8px; /* Adds padding inside cells */
+  text-align: left; /* Optional: Align text to the left */
+}
+
+/* Optional: Add background color for header */
+.markdown-rendered th {
+  background-color: #f4f4f4; /* Light grey background */
+  font-weight: bold; /* Makes headers bold */
+}
+
+/* Style for table rows */
+.markdown-rendered tr {
+  background-color: #ffffff; /* Default background color for rows */
+}
+
+/* Alternate row coloring (zebra striping) */
+.markdown-rendered tr:nth-child(even) {
+  background-color: #F9F9F9; /* Light gray background for even rows */
+}
+
+/* Add a hover effect to rows 
+.markdown-rendered tr:hover {
+  background-color: #E6FDE3;  Darken background when hovering over a row 
+}*/
+
+/* Add a hover effect to table cells */
+.markdown-rendered td:hover {
+  background-color: #E6FDE3; /* Change background color when hovering over a cell */
+}
