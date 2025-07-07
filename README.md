@@ -29,7 +29,7 @@ Luna4 was built with a focus on flexibility and cross-discipline utility, making
 
 ## Screenshots
 
-### Notebook Editor
+### Notebook Markdown Editor
 ![Notebook Editor](images/screenshots/Luna4-UI-overview.png)
 
 ### Notebook Editor side panel
@@ -38,7 +38,7 @@ Luna4 was built with a focus on flexibility and cross-discipline utility, making
 ## Python editor
 ![Python Editor](images/screenshots/Luna4-python.png)
 
-## Python editor
+## Python editor dark mode
 ![Python Editor](images/screenshots/Luna4-python-dark-mode.png)
 
 ### CAS Integration
