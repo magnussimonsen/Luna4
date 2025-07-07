@@ -1,0 +1,418 @@
+{
+  "English": [
+    {
+      "label": "solve",
+      "type": "keyword",
+      "detail": "Solve equation(s) for variable(s)",
+      "info": "Example:\n solve 2x + 1 = 0 for x\n solve x + y = 1 and x - 3y = 5 for x and y"
+    },
+    {
+      "label": "csolve",
+      "type": "keyword",
+      "detail": "Allows complex solutions",
+      "info": "Example:\n csolve x^2 + 1 = 0 for x"
+    },
+    {
+      "label": "eval",
+      "type": "keyword",
+      "detail": "Evaluate an expression",
+      "info": "Example:\n eval(1/3) = 0.333333...\n eval(1/3, 2) = 0.33"
+    },
+    {
+      "label": "expand",
+      "type": "keyword",
+      "detail": "Expand an expression",
+      "info": "Example:\n expand((x + 1)^2) = x^2 + 2x + 1"
+    },
+    {
+      "label": "factor",
+      "type": "keyword",
+      "detail": "Factor an expression",
+      "info": "Example:\n factor(x^2 -4) = (x - 2)(x + 2)"
+    },
+    {
+      "label": "simp",
+      "type": "keyword",
+      "detail": "Simplify an expression",
+      "info": "Example:\n simp(x^2 + 2x + 1)"
+    },
+    {
+      "label": "series",
+      "type": "keyword",
+      "detail": "Compute the series expansion of expression",
+      "info": "Example:\n series(x^2 + 3x + 4, x, 0, 5)\n series(x^2 + 3x + 4, x, 0, 5).removeO()\n series(x^2 + 3x + 4, x, 0, 5).removeO(1)"
+    },
+    {
+      "label": "diff",
+      "type": "keyword",
+      "detail": "Differentiate an expression",
+      "info": "First order derivative:\n diff(x^2+3x+4,x)\n Second order derivative: diff(x^2+3x+4,x,2)"
+    },
+    {
+      "label": "integral",
+      "type": "keyword",
+      "detail": "Integrate an expression",
+      "info": "Examples:\n integral(x^2+3x+4,x) \n integral(x^2+3x+4, x, 0, 1)"
+    },
+    {
+      "label": "limit",
+      "type": "keyword",
+      "detail": "Compute the limit of an expression",
+      "info": "Example:\n limit(x^2 + 3x + 4, x, oo)\n limit(x^2 + 3x + 4, x, oo).subs(x, oo)"
+    },
+    {
+      "label": "Mat",
+      "type": "keyword",
+      "detail": "Create a matrix",
+      "info": "Example:\n Matrix([[1, 2], [3, 4]])\nMatrix([[1, 2], [3, 4]]).det() \nMatrix([[1, 2], [3, 4]]).inv()"
+    },
+    {
+      "label": "det",
+      "type": "keyword",
+      "detail": "Calculate the determinant",
+      "info": "Example:\n det([[1, 2], [3, 4]]) = -2\n det([[1, 2], [3, 4]]).subs(x, 0)"
+    },
+    {
+      "label": "inv",
+      "type": "keyword",
+      "detail": "Compute the inverse of a matrix",
+      "info": "Example:\n inv([[1, 2], [3, 4]]) = [[-2, 1], [1.5, -0.5]]"
+    },
+    {
+      "label": "transpose",
+      "type": "keyword",
+      "detail": "Transpose a matrix",
+      "info": "Example:\n transpose([[1, 2], [3, 4]]) = [[1, 3], [2, 4]]"
+    },
+    {
+      "label": "for",
+      "type": "keyword",
+      "detail": "Specify variable to solve for",
+      "info": "Example:\n solve 2*x + 1 = 0 for x"
+    },
+    {
+      "label": "pi",
+      "type": "constant",
+      "detail": "π (3.14159...)",
+      "info": ""
+    },
+    {
+      "label": "E",
+      "type": "constant",
+      "detail": "Euler number, e (2.71828...)",
+      "info": ""
+    },
+    {
+      "label": "oo",
+      "type": "constant",
+      "detail": "Infinity symbol",
+      "info": "Infinity symbol"
+    },
+    {
+      "label": "I",
+      "type": "constant",
+      "detail": "Imaginary unit (√-1)",
+      "info": ""
+    },
+    {
+      "label": "deg",
+      "type": "function",
+      "detail": "Convert radians to degrees",
+      "info": "Exampels:\n deg(π/6) = 30°"
+    },
+    {
+      "label": "rad",
+      "type": "function",
+      "detail": "Convert degrees to radians",
+      "info": "Exampels:\n rad(30°) = π/6"
+    },
+    {
+      "label": "!",
+      "type": "function",
+      "detail": "Factorial function",
+      "info": "Example:\n 5! = 120\n 0! = 1"
+    },
+    {
+      "label": "abs",
+      "type": "function",
+      "detail": "Absolute value function",
+      "info": "Example:\n abs(-5) = 5\n abs(5) = 5"
+    },
+    {
+      "label": "sin",
+      "sympyLabel": "sp.sin",
+      "type": "function",
+      "detail": "Sine function (argument in radians)",
+      "info": "Example:\n sin(π/6) \n sin(30°)\n sin(30°) = sin(π/6)"
+    },
+    {
+      "label": "cos",
+      "type": "function",
+      "detail": "Cosine function (argument in radians)",
+      "info": "Example:\n cos(π/3) \n cos(60°)\n cos(60°) = cos(π/3)"
+    },
+    {
+      "label": "tan",
+      "type": "function",
+      "detail": "Tangent function (argument in radians)",
+      "info": "Example:\n tan(π/4) \n tan(45°)\n tan(45°) = tan(π/4)"
+    },
+    {
+      "label": "asin",
+      "type": "function",
+      "detail": "Inverse sine function",
+      "info": "Example:\n asin(1/2) = π/6 \n asin(30°) = π/6"
+    },
+    {
+      "label": "acos",
+      "type": "function",
+      "detail": "Inverse cosine function",
+      "info": "Example:\n acos(1/2) = π/3 \n acos(60°) = π/3"
+    },
+    {
+      "label": "atan",
+      "type": "function",
+      "detail": "Inverse tangent function",
+      "info": "Example:\n atan(1) = π/4 \n atan(45°) = π/4"
+    },
+    {
+      "label": "exp",
+      "type": "function",
+      "detail": "Euler's number raised to the power of x",
+      "info": "Example:\n exp(1) = e \n exp(0) = 1"
+    },
+    {
+      "label": "ln",
+      "type": "function",
+      "detail": "Natural logarithm",
+      "info": "Example:\n ln(e) = 1 \n ln(1) = 0"
+    },
+    {
+      "label": "lg",
+      "type": "function",
+      "detail": "Base-10 logarithm",
+      "info": "Example:\n lg(10) = 1 \n lg(100) = 2"
+    },
+    {
+      "label": "log",
+      "type": "function",
+      "detail": "Base-n logarithm",
+      "info": "Examples:\n log2(x) \n log3(x) \n log4(x)"
+    },
+    {
+      "label": "sqrt",
+      "type": "function",
+      "detail": "Square root",
+      "info": "Example:\n sqrt(4) = 2 \n sqrt(9) = 3"
+    }
+  ],
+  "Norwegian": [
+    {
+      "label": "løs",
+      "sympyLabel": "sp.solve",
+      "type": "keyword",
+      "detail": "Løs ligning(er) for variabel(er)",
+      "info": "Løs ligning(er) for variabel(er)\nEksempler:\n solve 2x + 1 = 0 for x\n solve x + y = 1 and x - 3y = 5 for x and y"
+    },
+    {
+      "label": "kløs",
+      "sympyLabel": "sp.csolve",
+      "type": "keyword",
+      "detail": "Tillater komplekse løsninger",
+      "info": "Eksempler:\n csolve x^2 + 1 = 0 for x"
+    },
+    {
+      "label": "eval",
+      "type": "keyword",
+      "detail": "Evaluer et uttrykk",
+      "info": ""
+    },
+    {
+      "label": "utvid",
+      "type": "keyword",
+      "detail": "Utvid et uttrykk",
+      "info": "Utvid et uttrykk"
+    },
+    {
+      "label": "faktoriser",
+      "type": "keyword",
+      "detail": "Faktoriser et uttrykk",
+      "info": "Faktoriser et uttrykk"
+    },
+    {
+      "label": "forenkle",
+      "type": "keyword",
+      "detail": "Forenkle et uttrykk",
+      "info": "Forenkle et uttrykk"
+    },
+    {
+      "label": "rekke",
+      "type": "keyword",
+      "detail": "Beregn rekkeutvidelsen av et uttrykk",
+      "info": "Beregn rekkeutvidelsen av et uttrykk"
+    },
+    {
+      "label": "deriver",
+      "type": "keyword",
+      "detail": "Differensier et uttrykk",
+      "info": "Første ordens derivasjon: diff(x^2+3x+4,x)\n Andre ordens derivasjon: diff(x^2+3x+4,x,2)"
+    },
+    {
+      "label": "integral",
+      "type": "keyword",
+      "detail": "Integrer et uttrykk",
+      "info": "Eksempler:\n integral(x^2+3x+4,x) \n integral(x^2+3x+4, x, 0, 1)"
+    },
+    {
+      "label": "grense",
+      "type": "keyword",
+      "detail": "Beregn grenseverdien til et uttrykk",
+      "info": ""
+    },
+    {
+      "label": "mat",
+      "type": "keyword",
+      "detail": "Lag en matrise",
+      "info": "Lag en matrise"
+    },
+    {
+      "label": "det",
+      "type": "keyword",
+      "detail": "Beregn determinanten",
+      "info": ""
+    },
+    {
+      "label": "inv",
+      "type": "keyword",
+      "detail": "Beregn den inverse av en matrise",
+      "info": ""
+    },
+    {
+      "label": "transponert",
+      "type": "keyword",
+      "detail": "Transponere en matrise",
+      "info": ""
+    },
+    {
+      "label": "for",
+      "type": "keyword",
+      "detail": "Spesifiser variabel å løse for",
+      "info": ""
+    },
+    {
+      "label": "pi",
+      "type": "constant",
+      "detail": "π (3.14159...)",
+      "info": "π (3.14159...)"
+    },
+    {
+      "label": "E",
+      "type": "constant",
+      "detail": "e (2.71828...)",
+      "info": "e (2.71828...)"
+    },
+    {
+      "label": "oo",
+      "type": "constant",
+      "detail": "Uendelighetssymbol",
+      "info": "Uendelighetssymbol"
+    },
+    {
+      "label": "I",
+      "type": "constant",
+      "detail": "Imaginær enhet (√-1)",
+      "info": "Imaginær enhet (√-1)"
+    },
+    {
+      "label": "grad",
+      "type": "function",
+      "detail": "Konverter vinkel til grader",
+      "info": "Konverter vinkel til grader"
+    },
+    {
+      "label": "rad",
+      "type": "function",
+      "detail": "Konverter vinkel til radianer",
+      "info": "Konverter vinkel til radianer"
+    },
+    {
+      "label": "!",
+      "type": "function",
+      "detail": "Fakultetsfunksjon",
+      "info": "Fakultetsfunksjon"
+    },
+    {
+      "label": "abs",
+      "type": "function",
+      "detail": "Absoluttverdi-funksjon",
+      "info": "Absoluttverdi-funksjon"
+    },
+    {
+      "label": "sin",
+      "type": "function",
+      "detail": "Sinusfunksjon",
+      "info": "Sinusfunksjon"
+    },
+    {
+      "label": "cos",
+      "type": "function",
+      "detail": "Cosinusfunksjon",
+      "info": "Cosinusfunksjon"
+    },
+    {
+      "label": "tan",
+      "type": "function",
+      "detail": "Tangensfunksjon",
+      "info": "Tangensfunksjon"
+    },
+    {
+      "label": "asin",
+      "type": "function",
+      "detail": "Invers sinusfunksjon",
+      "info": "Invers sinusfunksjon"
+    },
+    {
+      "label": "acos",
+      "type": "function",
+      "detail": "Invers cosinusfunksjon",
+      "info": "Invers cosinusfunksjon"
+    },
+    {
+      "label": "atan",
+      "type": "function",
+      "detail": "Invers tangensfunksjon",
+      "info": "Invers tangensfunksjon"
+    },
+    {
+      "label": "exp",
+      "type": "function",
+      "detail": "Eksponentialfunksjon",
+      "info": "Eksponentialfunksjon"
+    },
+    {
+      "label": "ln",
+      "type": "function",
+      "detail": "Naturlig logaritme",
+      "info": "Naturlig logaritme"
+    },
+    {
+      "label": "lg",
+      "type": "function",
+      "detail": "Base-10 logaritme",
+      "info": "Base-10 logaritme"
+    },
+    {
+      "label": "log",
+      "type": "function",
+      "detail": "Base-n logaritme",
+      "info": "Base-n logaritme: Examples:\n log2(x) \n log3(x) \n log4(x)"
+    },
+    {
+      "label": "rot",
+      "type": "function",
+      "detail": "Kvadratrot",
+      "info": "Kvadratrot"
+    }
+  ]
+}
+
