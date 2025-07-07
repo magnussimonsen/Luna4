@@ -1,0 +1,38 @@
+{
+  "availableLanguages": ["English", "Norwegian"],
+  "translations": {
+    "English": {
+      "moveCellDownStr": "Move cell down",
+      "moveCellUpStr": "Move cell up",
+      "toggleReadOnlyStr": "Toggle cell lock",
+      "toggleViewStr": "Toggle main view",
+      "toggleCellViewStr": "Toggle cell view",
+      "tiggleVisibilityStr": "Toggle visibility",
+      "fileStr": "File",
+      "editStr": "Edit",
+      "viewStr": "View",
+      "insertNewCellStr": "Insert new cell",
+      "solveKeyword": "solve",
+      "forKeyword": "for",
+      "andKeyword": "and"
+    },
+    "Norwegian": {
+      "moveCellDownStr": "Flytt celle ned",
+      "moveCellUpStr": "Flytt celle opp",
+      "toggleReadOnlyStr": "Cellelås av/på",
+      "toggleViewStr": "Skift visning",
+      "toggleCellViewStr": "Skift cellevisning",
+      "tiggleVisibilityStr": "Vis eller skjul celle",
+      "fileStr": "Fil",
+      "editStr": "Rediger",
+      "viewStr": "Vis",
+      "insertNewCellStr": "Sett inn",
+      "solveKeyword": "løs",
+      "forKeyword": "for", 
+      "andKeyword": "og"
+    }
+  }
+}
+
+
+

@@ -1,0 +1,338 @@
+{
+    "mathNotationDropdownOptions": {
+        "space": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "space",
+            "label": {
+                "English": "Space",
+                "Norwegian": "Mellomrom"
+            },
+            "shortcut": "",
+            "snippet": "\\:"
+        },
+        "exponent": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "exponent",
+            "label": {
+                "English": "Exponent",
+                "Norwegian": "Eksponent"
+            },
+            "shortcut": "",
+            "snippet": "^{,}"
+        },
+        "subscript": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "subscript",
+            "label": {
+                "English": "Subscript",
+                "Norwegian": "Senket skrift"
+            },
+            "shortcut": "",
+            "snippet": "_{,}"
+        },
+        "frac": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "frac",
+            "label": {
+                "English": "Fraction",
+                "Norwegian": "Brøk"
+            },
+            "shortcut": "",
+            "snippet": "\\frac{,}{}"
+        },
+        "vector": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "vector",
+            "label": {
+                "English": "Vector",
+                "Norwegian": "Vektor"
+            },
+            "shortcut": "",
+            "snippet": "\\vec{,}"
+        },
+        "root": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "root",
+            "label": {
+                "English": "Square root",
+                "Norwegian": "Kvadratrot"
+            },
+            "shortcut": "",
+            "snippet": "\\sqrt{,}"
+        },
+        "nth-root": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "nth-root",
+            "label": {
+                "English": "Nth root",
+                "Norwegian": "N-te rot"
+            },
+            "shortcut": "",
+            "snippet": "\\sqrt[n]{}"
+        },
+        "parentheses": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "parentheses",
+            "label": {
+                "English": "Parentheses",
+                "Norwegian": "Parenteser"
+            },
+            "shortcut": "",
+            "snippet": "\\left(,\\right)"
+        },
+        "square-brackets": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "square-brackets",
+            "label": {
+                "English": "Square brackets",
+                "Norwegian": "Firkantede parenteser"
+            },
+            "shortcut": "",
+            "snippet": "\\left[,\\right]"
+        },
+        "curly-brackets": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "curly-brackets",
+            "label": {
+                "English": "Curly brackets",
+                "Norwegian": "Krøllparenteser"
+            },
+            "shortcut": "",
+            "snippet": "\\left{,\\right}"
+        },
+        "angle-brackets": {
+            "useFunctionFromMarkdownStore": "insertMarkdownWrapper",
+            "value": "angle-brackets",
+            "label": {
+                "English": "Angle brackets",
+                "Norwegian": "Vinkelparenteser"
+            },
+            "shortcut": "",
+            "snippet": "\\left\\langle , \\right\\rangle"
+        }
+    },
+    "fxDropdownOptions": {
+        "sum": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "sum",
+            "label": {
+                "English": "Sum",
+                "Norwegian": "Sum"
+            },
+            "shortcut": "",
+            "snippet": "\\sum_{i=1}^{n}"
+        },
+        "integral": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "integral",
+            "label": {
+                "English": "Integral",
+                "Norwegian": "Integral"
+            },
+            "shortcut": "",
+            "snippet": "\\int_{a}^{b}"
+        },
+        "limit": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "limit",
+            "label": {
+                "English": "Limit",
+                "Norwegian": "Grense"
+            },
+            "shortcut": "",
+            "snippet": "\\lim_{x \\to \\infty}"
+        },
+        "align": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "align",
+            "label": {
+                "English": "Multi line equations",
+                "Norwegian": "Flere linjer ligninger"
+            },
+            "shortcut": "",
+            "snippet": "$$\n\\begin{align*}\n&=\\\\ \n&=\\\\ \n\\end{align*}\n$$"
+        },
+        "piecewise": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "piecewise",
+            "label": {
+                "English": "Piecewise function template",
+                "Norwegian": "Stykkevis funksjon mal"
+            },
+            "shortcut": "",
+            "snippet": "|x| = \n\\begin{cases} \n~~~x & \\text{for } x \\geq 0 \\\\\n- x & \\text{for } x<0 \n\\end{cases}"
+        }
+    },
+    "formulasDropdownOptions": {
+        "phytagoras": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "phytagoras",
+            "label": {
+                "English": "Phytagoras theorem",
+                "Norwegian": "Pytagoras læresetning"
+            },
+            "shortcut": "",
+            "snippet": "a^2 + b^2 = c^2 "
+        },
+        "abcFormula": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "abcFormula",
+            "label": {
+                "English": "ABC formula",
+                "Norwegian": "ABC-formel"
+            },
+            "shortcut": "",
+            "snippet": "x_{\\pm} = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+        },
+        "pointSlopeEquation": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "pointSlopeEquation",
+            "label": {
+                "English": "Point-Slope Equation of a Line",
+                "Norwegian": "Ettpunktsformelen for en rett linje"
+            },
+            "shortcut": "",
+            "snippet": "y - f(a) = f'(a)(x - a)"
+        },
+        "theDerivativeAsALimit": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "theDerivativeAsALimit",
+            "label": {
+                "English": "The derivative as a limit",
+                "Norwegian": "Derivert som en grense"
+            },
+            "shortcut": "",
+            "snippet": "\\lim_{\\Delta x \\to 0} \\frac{f(x+\\Delta x)-f(x)}{\\Delta x}"
+        },
+        "fundamentalTheoremOfCalculus": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "fundamentalTheoremOfCalculus",
+            "label": {
+                "English": "Fundamental Theorem of Calculus",
+                "Norwegian": "Analysens fundamentalteorem"
+            },
+            "shortcut": "",
+            "snippet": "\\int_a^b f(x) \\, dx = F(b) - F(a), \\:\\:\\: F'(x) = f(x)"
+        },
+        "taylorExpansion": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "taylorExpansion",
+            "label": {
+                "English": "Taylor Expansion",
+                "Norwegian": "Taylors formel"
+            },
+            "shortcut": "",
+            "snippet": "f(x) = f(a) + f'(a)(x - a) + \\frac{f''(a)}{2!}(x - a)^2 + \\dots  + \\frac{f^{(n)}(a)}{n!}(x - a)^n"
+        },
+        "eulersNumberAsLimit": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "eulersNumberAsLimit",
+            "label": {
+                "English": "Euler's Number as a Limit",
+                "Norwegian": "Eulers tall som en grenseverdi"
+            },
+            "shortcut": "",
+            "snippet": "e = \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n"
+        },
+        "geometricSeries": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "geometricSeries",
+            "label": {
+                "English": "Finite Geometric Series",
+                "Norwegian": "Endelig geometrisk rekke"
+            },
+            "shortcut": "",
+            "snippet": "a + ar + ar^2 + \\dots + ar^{n-1} = \\frac{a(1 - r^n)}{1 - r}, \\text{ for } r \\neq 1"
+        },
+        "infiniteGeometricSeries": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "infiniteGeometricSeries",
+            "label": {
+                "English": "Infinite Geometric Series",
+                "Norwegian": "Uendelig geometrisk rekke"
+            },
+            "shortcut": "",
+            "snippet": "\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}, \\text{ for } |r| < 1"
+        },
+        "someTrigonometricIdentities": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "someTrigonometricIdentities",
+            "label": {
+                "English": "The Trigonometric Identity",
+                "Norwegian": "Den trigonometriske identitenten"
+            },
+            "shortcut": "",
+            "snippet": "\\begin{align*}\n&\\sin^2(\\theta) + \\cos^2(\\theta) = 1  \n\\end{align*}"
+        },
+        "sumFormulaForCosine": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "sumFormulaForCosine",
+            "label": {
+                "English": "Sum and Difference Formula for Cosine",
+                "Norwegian": "Sum- og differanse-formel for cosinus"
+            },
+            "shortcut": "",
+            "snippet": "\\cos(\\alpha \\pm \\beta) = \\cos \\alpha \\cos \\beta  \\mp \\sin \\alpha \\sin \\beta"
+        },
+        "sumFormulaForSine": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "sumFormulaForSine",
+            "label": {
+                "English": "Sum and Difference Formula for Sine",
+                "Norwegian":  "Sum- og differanse-formel for sinus"
+            },
+            "shortcut": "",
+            "snippet": "\\sin(\\alpha \\pm \\beta) = \\sin \\alpha \\cos \\beta \\pm \\cos \\alpha \\sin \\beta"
+        },
+        "tangentSumAndDifference": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "tangentSumAndDifference",
+            "label": {
+                "English": "Sum and Difference Formula for the Tangent function",
+                "Norwegian": "Sum og differanse for tangensfunksjonen"
+            },
+            "shortcut": "",
+            "snippet": "\\tan(\\alpha \\pm \\beta) = \\frac{\\tan(\\alpha) \\pm \\tan(\\beta)}{1 \\mp \\tan(\\alpha) \\tan(\\beta)}"
+        },
+        "bayesTheorem": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "bayesTheorem",
+            "label": {
+                "English": "Bayes' Theorem",
+                "Norwegian": "Bayes' teorem"
+            },
+            "shortcut": "",
+            "snippet": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}"
+        },
+        "totalProbabilityTheorem": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "totalProbabilityTheorem",
+            "label": {
+                "English": "Theorem of Total Probability",
+                "Norwegian": "Total sannsynlighet"
+            },
+            "shortcut": "",
+            "snippet": "P(B) = \\sum_{i} P(B|A_i) P(A_i)"
+        },
+        "normalDistribution": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "normalDistribution",
+            "label": {
+                "English": "The Normal Distribution",
+                "Norwegian": "Normalfordeling"
+            },
+            "shortcut": "",
+            "snippet": "f(x) = \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}"
+        },
+        "standardNormalDistribution": {
+            "useFunctionFromMarkdownStore": "insertMarkdownSnippet",
+            "value": "standardNormalDistribution",
+            "label": {
+                "English": "The Standard Normal distribution",
+                "Norwegian": "Standard normalfordeling"
+            },
+            "shortcut": "",
+            "snippet": "\\phi(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{x^2}{2}}"
+        }
+    }
+}
