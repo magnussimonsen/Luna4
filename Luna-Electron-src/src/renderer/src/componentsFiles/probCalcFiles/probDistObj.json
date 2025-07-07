@@ -1,0 +1,301 @@
+{
+	"Normal": {
+		"isDiscrete": false,
+		"selectedIntervalKey": "leftSided",
+		"fallbackIntervalKey": "leftSided",
+		"intervals": {
+			"leftSided": "P(X ≤ x)",
+			"rightSided": "P(X ≥ x)",
+			"interval": "P(a ≤ X ≤ b)",
+			"twoTailed": "P(a ≥ X ≥ b)"
+		},
+		"selectedParameterKey": "mu",
+		"fallbackParameterKey": "mu",
+		"ans": 0,
+		"significantDigits": 6,
+		"roundedAns": 0,
+		"notation": "\\mathcal{N}(\\mu, \\sigma^2)",
+		"PDF": "normalPDF",
+		"CDF": "normalCDF",
+		"LatexFormulaPDF": "\\frac{1}{{\\sigma\\sqrt{2\\pi}}} e^{-\\frac{({{indVar}}-\\mu)^2}{2\\sigma^2}}",
+		"LatexFormulaLeftsidedCDF": "\\int{{-\\infty}}^{{{indVar}}} \\frac{1}{{{{sigma}}\\sqrt{2\\pi}}} e^{-\\frac{({{dumVar}}-{{mu}})^2}{2{{sigma}}^2}} d{{dumVar}}",
+		"LatexFormulaRightsidedCDF": "\\int_{{{indVar}}}^{{\\infty}} \\frac{1}{{{{sigma}}\\sqrt{2\\pi}}} e^{-\\frac{({{dumVar}}-{{mu}})^2}{2{{sigma}}^2}} d{{dumVar}}",
+		"LatexFormulatwoTailedCDF": "\\int_{{{a}}}^{{{b}}} \\frac{1}{{{{sigma}}\\sqrt{2\\pi}}} e^{-\\frac{({{dumVar}}-{{mu}})^2}{2{{sigma}}^2}} d{{indVar}}",
+		"LatexFormulaTwoTailedCDF": "1-\\int_{{{a}}}^{{{b}}} \\frac{1}{{{{sigma}}\\sqrt{2\\pi}}} e^{-\\frac{({{dumVar}}-{{mu}})^2}{2{{sigma}}^2}} d{{indVar}}",
+		"distName": {
+			"English": "Normal",
+			"Norwegian": "Normal"
+		},
+		"distNameLong": {
+			"English": "The normal distribution",
+			"Norwegian": "Normalfordelingen"
+		},
+		"intervalData": {
+			"indVar": {
+				"unicode": "x",
+				"latex": "x",
+				"defaultValue": 0,
+				"currentValue": 0,
+				"stepSize": 0.01,
+				"minValue": "-Infinity",
+				"maxValue": "Infinity",
+				"dataType": "float"
+			},
+			"x": {
+				"unicode": "x",
+				"latex": "x",
+				"defaultValue": 0,
+				"currentValue": 0,
+				"stepSize": 0.01,
+				"minValue": "-Infinity",
+				"maxValue": "Infinity",
+				"dataType": "float"
+			},
+			"a": {
+				"unicode": "a",
+				"latex": "a",
+				"defaultValue": -1,
+				"currentValue": -1,
+				"stepSize": 0.01,
+				"minValue": "-Infinity",
+				"maxValue": "b",
+				"dataType": "float"
+			},
+			"b": {
+				"unicode": "b",
+				"latex": "b",
+				"defaultValue": 1,
+				"currentValue": 1,
+				"stepSize": 0.01,
+				"minValue": "a",
+				"maxValue": "Infinity",
+				"dataType": "float"
+			}
+		},
+		"parameterData": {
+			"mu": {
+				"name": {
+					"English": "Mean",
+					"Norwegian": "Forventningsverdi"
+				},
+				"unicode": "μ",
+				"latex": "\\mu",
+				"defaultValue": 0,
+				"currentValue": 0,
+				"stepSize": 0.01,
+				"minValue": "-Infinity",
+				"maxValue": "Infinity",
+				"dataType": "float"
+			},
+			"sigma": {
+				"name": {
+					"English": "Standard deviation",
+					"Norwegian": "Standardavvik"
+				},
+				"unicode": "σ",
+				"latex": "\\sigma",
+				"defaultValue": 1,
+				"currentValue": 1,
+				"stepSize": 0.01,
+				"minValue": 0,
+				"maxValue": "Infinity",
+				"dataType": "float"
+			}
+		}
+	},
+	"Exponential": {
+		"isDiscrete": false,
+		"selectedIntervalKey": "leftSided",
+		"fallbackIntervalKey": "leftSided",
+		"intervals": {
+			"leftSided": "P(X ≤ x)",
+			"rightSided": "P(X ≥ x)",
+			"interval": "P(a ≤ X ≤ b)",
+			"twoTailed": "P(X ≤ a or X ≥ b)"
+		},
+		"selectedParameterKey": "lambda",
+		"fallbackParameterKey": "lambda",
+		"ans": 0,
+		"significantDigits": 6,
+		"roundedAns": 0,
+		"notation": "\\text{Exp}(\\lambda)",
+		"PDF": "exponentialPDF",
+		"CDF": "exponentialCDF",
+		"LatexFormulaPDF": "\\lambda e^{-\\lambda x}, \\quad x \\ge 0",
+		"LatexFormulaLeftsidedCDF": "\\int_{0}^{x} \\lambda e^{-\\lambda \\dumVar} \\, d\\dumVar = 1 - e^{-\\lambda x}",
+		"LatexFormulaRightsidedCDF": "\\int_{x}^{\\infty} \\lambda e^{-\\lambda \\dumVar} \\, d\\dumVar = e^{-\\lambda x}",
+		"LatexFormulatwoTailedCDF": "\\int_{a}^{b} \\lambda e^{-\\lambda \\dumVar} \\, d\\dumVar = e^{-\\lambda a} - e^{-\\lambda b} \\quad (0 \\le a < b)",
+		"LatexFormulaTwoTailedCDF": "1 - \\int_{a}^{b} \\lambda e^{-\\lambda \\dumVar} \\, d\\dumVar = 1 - (e^{-\\lambda a} - e^{-\\lambda b}) = e^{-\\lambda a} + e^{-\\lambda b} - 1",
+		"distName": {
+			"English": "Exponential",
+			"Norwegian": "Eksponential"
+		},
+		"distNameLong": {
+			"English": "The exponential distribution",
+			"Norwegian": "Den eksponensielle fordelingen"
+		},
+		"intervalData": {
+			"indVar": {
+				"unicode": "x",
+				"latex": "x",
+				"defaultValue": 1,
+				"currentValue": 1,
+				"stepSize": 0.01,
+				"minValue": 0,
+				"maxValue": "Infinity",
+				"dataType": "float"
+			},
+			"x": {
+				"unicode": "x",
+				"latex": "x",
+				"defaultValue": 1,
+				"currentValue": 1,
+				"stepSize": 0.01,
+				"minValue": 0,
+				"maxValue": "Infinity",
+				"dataType": "float"
+			},
+			"a": {
+				"unicode": "a",
+				"latex": "a",
+				"defaultValue": 0,
+				"currentValue": 0,
+				"stepSize": 0.01,
+				"minValue": 0,
+				"maxValue": "b-1",
+				"dataType": "float"
+			},
+			"b": {
+				"unicode": "b",
+				"latex": "b",
+				"defaultValue": 2,
+				"currentValue": 2,
+				"stepSize": 0.01,
+				"minValue": "a",
+				"maxValue": "Infinity",
+				"dataType": "float"
+			}
+		},
+		"parameterData": {
+			"lambda": {
+				"name": {
+					"English": "Rate",
+					"Norwegian": "Rate"
+				},
+				"unicode": "λ",
+				"latex": "\\lambda",
+				"defaultValue": 1,
+				"currentValue": 1,
+				"stepSize": 0.01,
+				"minValue": 0,
+				"maxValue": "Infinity",
+				"dataType": "float"
+			}
+		}
+	},
+	"Binomial": {
+  "isDiscrete": true,
+  "selectedIntervalKey": "leftSided",
+  "fallbackIntervalKey": "leftSided",
+  "intervals": {
+    "leftSided": "P(X ≤ x)",
+    "rightSided": "P(X ≥ x)",
+    "interval": "P(a ≤ X ≤ b)",
+    "twoTailed": "P(a ≥ X ≥ b)"
+  },
+  "selectedParameterKey": "n",
+  "fallbackParameterKey": "n",
+  "ans": 0,
+  "significantDigits": 6,
+  "roundedAns": 0,
+  "notation": "\\mathrm{Bin}(n, p)",
+  "PDF": "binomialPMF",
+  "CDF": "binomialCDF",
+  "LatexFormulaPDF": "P(X = k) = \\binom{n}{k} p^k (1 - p)^{n - k}, \\quad k = 0, 1, 2, \\dots, n",
+  "LatexFormulaLeftsidedCDF": "\\sum_{k=0}^{x} \\binom{n}{k} p^k (1 - p)^{n - k}",
+  "LatexFormulaRightsidedCDF": "\\sum_{k=x}^{n} \\binom{n}{k} p^k (1 - p)^{n - k}",
+  "LatexFormulatwoTailedCDF": "\\sum_{k=a}^{b} \\binom{n}{k} p^k (1 - p)^{n - k}",
+  "LatexFormulaTwoTailedCDF": "1 - \\sum_{k=a}^{b} \\binom{n}{k} p^k (1 - p)^{n - k}",
+  "distName": {
+    "English": "Binomial",
+    "Norwegian": "Binomisk"
+  },
+  "distNameLong": {
+    "English": "The binomial distribution",
+    "Norwegian": "Binomisk fordeling"
+  },
+  "intervalData": {
+    "indVar": {
+      "unicode": "x",
+      "latex": "x",
+      "defaultValue": 0,
+      "currentValue": 0,
+      "stepSize": 1,
+      "minValue": 0,
+      "maxValue": "n",
+      "dataType": "int"
+    },
+    "x": {
+      "unicode": "x",
+      "latex": "x",
+      "defaultValue": 0,
+      "currentValue": 0,
+      "stepSize": 1,
+      "minValue": 0,
+      "maxValue": "n",
+      "dataType": "int"
+    },
+    "a": {
+      "unicode": "a",
+      "latex": "a",
+      "defaultValue": 0,
+      "currentValue": 0,
+      "stepSize": 1,
+      "minValue": 0,
+      "maxValue": "b",
+      "dataType": "int"
+    },
+    "b": {
+      "unicode": "b",
+      "latex": "b",
+      "defaultValue": 5,
+      "currentValue": 5,
+      "stepSize": 1,
+      "minValue": "a",
+      "maxValue": "n",
+      "dataType": "int"
+    }
+  },
+  "parameterData": {
+    "n": {
+      "name": {
+        "English": "Number of trials",
+        "Norwegian": "Antall forsøk"
+      },
+      "unicode": "n",
+      "latex": "n",
+      "defaultValue": 10,
+      "currentValue": 10,
+      "stepSize": 1,
+      "minValue": 1,
+      "maxValue": "Infinity",
+      "dataType": "int"
+    },
+    "p": {
+      "name": {
+        "English": "Success probability",
+        "Norwegian": "Sannsynlighet for suksess"
+      },
+      "unicode": "p",
+      "latex": "p",
+      "defaultValue": 0.5,
+      "currentValue": 0.5,
+      "stepSize": 0.01,
+      "minValue": 0,
+      "maxValue": 1,
+      "dataType": "float"
+    }
+  }
+}
+
+}
