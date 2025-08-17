@@ -55,7 +55,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Python editor dark mode
 <img src="images/screenshots/Luna4-python-dark-mode.png" width="500" />
 
-### CAS Integration
+### CAS Integration using Luna custom pedagogical syntax API to trigger SymPy
 <img src="images/screenshots/Luna4-CAS.png" width="500" />
 
 ### Sympy Integration
